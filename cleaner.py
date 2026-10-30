@@ -59,7 +59,7 @@ reader = PdfReader(PDF)
 result = []
 
 for page_num, page in enumerate(reader.pages, 1):
-    print(f"Сторінка {page_num}/{len(reader.pages)}")
+    print(f"Page {page_num}/{len(reader.pages)}")
 
     text = page.extract_text()
 
@@ -76,12 +76,12 @@ for page_num, page in enumerate(reader.pages, 1):
         if not line:
             continue
 
-        # Початок завдання
+        # Start of a task
         if is_task_start(line):
             skip = True
             continue
 
-        # Повертаємося до тексту на новому параграфі
+        # Resume text at a new paragraph
         if skip and is_new_section(line):
             skip = False
 
@@ -91,14 +91,13 @@ for page_num, page in enumerate(reader.pages, 1):
 
 text = "\n".join(result)
 
-# Прибираємо зайві пробіли
+# Remove extra spaces
 text = re.sub(r"[ \t]+", " ", text)
 
-# Прибираємо багато порожніх рядків
+# Collapse multiple blank lines
 text = re.sub(r"\n{3,}", "\n\n", text)
 
 with open(OUTPUT, "w", encoding="utf-8") as f:
     f.write(text)
 
-print(f"\nГотово: {OUTPUT}")
-
+print(f"\nDone: {OUTPUT}")
