@@ -135,12 +135,13 @@ Keep API keys and other secrets out of version control.
 
 ### Run the Application
 
-Start Qdrant and configure LM Studio first. Then launch the application using the entry point defined in your project.
-
-For example, if the entry point is `main.py`:
 
 ```
-uv run python main.py
+chmod +x start_qdrant.sh 
+./start_qdrant.sh # start qdrant using docker
+chmod +x prepare_book.sh
+./prepare_book.sh  # preparing book using scripts
+uv run python main.py # run the application
 ```
 
 Adjust the command to match your actual project structure.
