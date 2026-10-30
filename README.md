@@ -25,12 +25,37 @@ Rather than relying solely on the language model's internal knowledge, the proje
 
 ## Demo
 
-<p align="center">  
-<img src="assets/demo.png" alt="RAG HistoryAgent demonstration" width="850" />  
+<p align="center">
+  <img src="assets/demo.png" alt="RAG HistoryAgent demonstration" width="850" />
 </p>
 
-<p align="center">  
-<em>Exploring Ukrainian history through natural-language questions.</em>  
+<details>
+<summary>🌐 See in English</summary>
+
+**Request:** Hi, tell me who you are, then tell me about Khrushchev.
+
+**Response:**
+
+Hello! I'm a historical assistant that helps you explore history. Ask me about events, dates, historical figures, causes, and consequences.
+
+Now, let's talk about **Nikita Khrushchev (1894–1971)**.
+
+### Early life and ties to Ukraine
+
+Khrushchev worked in the Donbas mines and learned to operate mining equipment at the Donetsk Geological Technical School. In 1931, he began his political career in Moscow, and in 1935 became head of the Moscow City and Regional Party Committees.
+
+### De-Stalinization
+
+His report *On the Cult of Personality and Its Consequences* initiated de-Stalinization — the criticism of Stalin's cult of personality. This process divided Soviet society and challenged the existing totalitarian system. Khrushchev argued that the party could not return to Stalinism.
+
+### Removal from power
+
+In October 1964, Khrushchev was removed from power by party officials led by Leonid Brezhnev. The official reason cited his age and deteriorating health. His removal marked the beginning of the Brezhnev era and the period later known as the *Era of Stagnation*.
+
+</details>
+
+<p align="center">
+  <em>Exploring Ukrainian history through natural-language questions.</em>
 </p>
 
 ## Key Features
