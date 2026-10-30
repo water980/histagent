@@ -7,13 +7,12 @@
 Retrieval-Augmented Generation · Hybrid Search · Reranking  
 </p>
 
-<p align="center">  
-<img src="[https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white)" alt="Python" />  
-<img src="[https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)" alt="LangChain" />  
-<img src="[https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white)" alt="Qdrant" />  
-<img src="[https://img.shields.io/badge/LLM-Local_Inference-8A2BE2?style=for-the-badge](https://img.shields.io/badge/LLM-Local_Inference-8A2BE2?style=for-the-badge)" alt="Local LLM inference" />  
-</p>
-
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white)
+![aiogram](https://img.shields.io/badge/aiogram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
+![BM25](https://img.shields.io/badge/BM25-Sparse%20Retrieval-6A5ACD?style=for-the-badge)
+![multilingual--e5--large](https://img.shields.io/badge/Embeddings-multilingual--e5--large-8A2BE2?style=for-the-badge)
 ----------
 
 ## Overview
